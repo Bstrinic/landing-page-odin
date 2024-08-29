@@ -78,15 +78,13 @@
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .navLeft {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
-    margin: 48px;
+    margin: 48px; 
 }
 
 .navRight {
@@ -100,27 +98,145 @@
 .header {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-between;
+    
+}
+
+.headerRight {
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    margin: 48px;
+    padding: 100px;
+}
+
+.headerLeft {
+    justify-content: center;
+    margin: 48px;
 }
 
 .headerMainText {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    margin: 48px;
+    margin: 2px;
 }
 
 .headerSubText {
     font-size: 18px;
     color: #E5E7EB;
-    margin: 48px;
+    margin: 2px;
 }
 
 .headerSignupButton button {
     background-color: #3882F6;
     color: white;
-    margin: 48px;
+    margin: 6px;
     border: none;
     border-radius: 8px;
     padding: 12px;
+}
+
+.informationHeader {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.informationText {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.boxContainer {
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+    padding: 50px;
+    width: 15px;
+    height: 15px;
+    box-sizing: border-box;
+}
+
+.informationSubText {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+.subTextBox {
+    padding: 20px;
+    max-width: 125px;
+    box-sizing: border-box;
+}
+
+.quoteBox {
+    background-color: #E5E7EB;
+    
+}
+
+.quoteText {
+    border: 10px solid purple;
+    display: flex;
+    justify-content: center;
+    margin: 48px;
+    max-width: 100;
+    align-items: center;
+}
+
+.quoteMessage {
+    font-size: 36px;
+    font-family: light italic;
+    color: #1F2937;
+}
+
+.quoteAuthor {
+    
+}
+
+.quoteAuthorName{
+    border: 10px solid purple;
+    display: flex;
+    justify-content: center;
+    margin: 48px;
+    max-width: 100;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    background-color: #1F2937;     
+    align-items: center;
+    justify-content: center;   
+    padding: 24px;
+}
+
+.footerText {
+    font-size: 18px;
+    color: #F9FAF8;
 }
