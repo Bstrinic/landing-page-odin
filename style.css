@@ -93,6 +93,7 @@
     align-items: center;
     font-size: 18px;
     margin: 48px;
+    padding-right: 50px;
 }
 
 .header {
@@ -185,11 +186,9 @@
 }
 
 .quoteText {
-    border: 10px solid purple;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin: 48px;
-    max-width: 100;
     align-items: center;
 }
 
@@ -197,19 +196,19 @@
     font-size: 36px;
     font-family: light italic;
     color: #1F2937;
+    margin: 48px;
 }
 
 .quoteAuthor {
-    
+    display: flex;
+     
 }
 
 .quoteAuthorName{
     border: 10px solid purple;
     display: flex;
-    justify-content: center;
-    margin: 48px;
-    max-width: 100;
-    align-items: center;
+
+    
 }
 
 
