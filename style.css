@@ -155,28 +155,23 @@
 
 .boxes {
     display: flex;
-    flex-wrap: wrap;
-    gap: 100px;
-    justify-content: center;
+    justify-content: space-between;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin: 48px;
 }
 
 .boxContainer {
     border: 4px solid #3882F6;
     border-radius: 8px;
     padding: 50px;
-    width: 15px;
-    height: 15px;
-    box-sizing: border-box;
+    justify-content: space-between;
 }
 
 .informationSubText {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 50;
+    margin: 48px;
 }
 
 .subTextBox {
@@ -228,7 +223,12 @@
 }
 
 .sign-up-button {
-    width: 25%;
+    background-color: transparent;
+    color: white;
+    margin: 6px;
+    border: solid;
+    border-radius: 8px;
+    padding: 12px;
 }
 
 
@@ -257,4 +257,25 @@
 .footerText {
     font-size: 18px;
     color: #F9FAF8;
+}
+
+.random-information-container {
+    display: flex;
+}
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 48px;
+}
+
+.info-card {
+    border: solid;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.info-container-text {
+    display: flex;
+    margin: 48px;
+    justify-content: space-between;
 }
