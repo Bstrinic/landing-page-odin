@@ -74,6 +74,9 @@
 }
 */
 
+.entire-body {
+    margin: 48px;
+}
 .navBar {
     background-color: #1F2937;
     display: flex;
@@ -141,6 +144,7 @@
     display: flex;
     justify-content: center;
     padding: 20px;
+    /* width: 80%; */
 }
 
 .informationText {
@@ -171,7 +175,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 100px;
+    align-items: center;
+    gap: 50;
 }
 
 .subTextBox {
@@ -208,8 +213,23 @@
     
 }
 
+.call-to-action-box {
+    background-color: #3882F6;
+    margin: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+    border-radius: 25px;
+}
 
+.call-to-action-text {
+    margin: 48px;
+}
 
+.sign-up-button {
+    width: 25%;
+}
 
 
 
