@@ -77,20 +77,25 @@
 .entire-body {
     margin: 48px;
 }
-.navBar {
+.nav {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
 }
 
-.navLeft {
+.nav-left {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
     margin: 48px; 
 }
 
-.navRight {
+
+.nav-right a {
+    color: white;
+    margin: 10px;
+}
+.nav-right {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -98,6 +103,7 @@
     margin: 48px;
     padding-right: 50px;
 }
+
 
 .header {
     display: flex;
@@ -140,10 +146,11 @@
     padding: 12px;
 }
 
-.information-header {
+.information-header p {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    font-weight: bold;
+    font-size: 36px;
     /* width: 80%; */
 }
 
@@ -164,7 +171,6 @@
     border: 4px solid #3882F6;
     border-radius: 8px;
     padding: 50px;
-    justify-content: space-between;
 }
 
 .information-sub-text {
@@ -199,7 +205,7 @@
     margin: 48px;
 }
 
-.quoteAuthor {
+.quote-author {
     display: flex;
     font-size: 18px; 
     font-weight: bold;
@@ -213,13 +219,26 @@
     margin: 48px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    height: fit-content;
+    justify-content: center;
     border-radius: 25px;
 }
 
 .call-to-action-text {
+    margin: 20px;
+    color: white;
+}
+
+.call-to-action-button {
     margin: 48px;
+}
+
+.call-to-action-button button {
+    border: solid;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 80px;
 }
 
 .sign-up-button {
@@ -254,7 +273,7 @@
     padding: 24px;
 }
 
-.footerText {
+.footer-text {
     font-size: 18px;
     color: #F9FAF8;
 }
