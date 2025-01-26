@@ -108,10 +108,9 @@
 .header {
     display: flex;
     background-color: #1F2937;
-    
 }
 
-.headerRight {
+.header-right {
     justify-content: center;
     align-items: center;
     background-color: grey;
@@ -119,25 +118,25 @@
     padding: 100px;
 }
 
-.headerLeft {
+.header-left {
     justify-content: center;
     margin: 48px;
 }
 
-.headerMainText {
+.header-main-text {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
     margin: 2px;
 }
 
-.headerSubText {
+.header-sub-text {
     font-size: 18px;
     color: #E5E7EB;
     margin: 2px;
 }
 
-.headerSignupButton button {
+.header-signup-button button {
     background-color: #3882F6;
     color: white;
     margin: 6px;
@@ -171,34 +170,35 @@
     border: 4px solid #3882F6;
     border-radius: 8px;
     padding: 50px;
+    margin: 48px;
+    justify-content: space-between;
 }
 
 .information-sub-text {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 48px;
+    align-items: center;
 }
 
 .sub-text-box {
-    padding: 20px;
     max-width: 125px;
-    box-sizing: border-box;
+    justify-content: space-between;
 }
 
-.quoteBox {
+.quote-box {
     background-color: #E5E7EB;
-    
 }
 
-.quoteText {
+.quote-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 48px;
 }
 
-.quoteMessage {
+.quote-message {
     font-size: 36px;
     font-family: light italic;
     color: #1F2937;
@@ -210,7 +210,6 @@
     font-size: 18px; 
     font-weight: bold;
     justify-content: end;
-    margin-right: 48px;
     
 }
 
