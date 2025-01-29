@@ -235,3 +235,26 @@
     width: 50%;
 }
 
+.section-four {
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+.quote-text {
+    margin: 48px;
+}
+
+.quote-message {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-author {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: end;
+    margin-top: 0;
+}
