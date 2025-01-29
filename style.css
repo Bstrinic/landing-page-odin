@@ -258,3 +258,38 @@
     justify-content: end;
     margin-top: 0;
 }
+
+.call-to-action-box {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 15px;
+    margin: 48px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action-primary-text {
+    color: #FFFFFF;
+    margin-left: 48px;
+    margin-top: 28px;
+}
+
+.call-to-action-secondary-text {
+    color: #F9FAF8;
+    margin-left: 48px;
+    margin-bottom: 28px;
+}
+
+.call-to-action-button {
+    display: flex;
+    border: solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 6px;
+    width: 100px;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 48px;
+}
