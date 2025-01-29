@@ -206,3 +206,32 @@
     width: 120px;
 }
 
+.section-three h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.information-boxes {
+    margin: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.information-box .box {
+    border: 4px solid #3882F6;
+    border-radius: 6px;
+    width: 150px;
+    height: 150px;
+}
+
+.information-box p {
+    width: 50%;
+}
+
