@@ -293,3 +293,16 @@
     justify-content: center;
     margin-right: 48px;
 }
+
+.footer {
+    display: flex;
+    background-color: #1F2937;     
+    align-items: center;
+    justify-content: center;   
+    padding: 24px;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: #F9FAF8;
+}
