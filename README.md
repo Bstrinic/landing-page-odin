@@ -1,7 +1,7 @@
-# Project Title: Responsive Landing Page
+# Project Title: Landing Page
 
 ## Project Overview
-This project involves creating a responsive landing page based on a provided design specification. The page will contain four main sections and a footer, with a focus on implementing a clean, professional layout using HTML and CSS.
+This project involves creating a landing page based on a provided design specification. The page will contain four main sections and a footer, with a focus on implementing a clean, professional layout using HTML and CSS.
 
 The goal of the project is to take a high-level design and break it down into smaller, manageable components. Each section of the landing page will be developed step-by-step, ensuring that the layout and structure are properly defined before focusing on styling and responsiveness.
 
@@ -41,7 +41,6 @@ The project is organized into the following sections:
 The main objective of this project is to build a clean, professional landing page using modern HTML and CSS techniques. By the end of this project, the following outcomes should be achieved:
 - A fully structured HTML page with defined sections.
 - Proper use of CSS to replicate the visual design, including fonts, colors, and layout.
-- Experience with responsive design principles, ensuring the page looks good on various screen sizes (though mobile responsiveness is not the main focus of this assignment).
 - A complete project hosted on GitHub, showcasing version control and project management skills.
 
 ## Key Learning Objectives
@@ -53,4 +52,3 @@ The main objective of this project is to build a clean, professional landing pag
 ## Conclusion
 This project serves as a foundation for understanding web development practices and building a fully functional static web page. By focusing on structure first, followed by styling, the project teaches valuable lessons about how to efficiently manage and develop a website from start to finish.
 
-Once completed, the project will provide a solid portfolio piece demonstrating core front-end development skills.
